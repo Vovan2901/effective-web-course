@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+ <head>
+    <meta charset="utf-8">
+     <link rel="stylesheet" href="style.css">
+     <title>Slider</title>
+ </head>
+ 
+<body>
+        <div class="buttons">
+        <button class="prev" onclick="SlideNext(-1)">Prev</button>
+        <button class="next" onclick="SlideNext(1)">Next</button>
+        </div>
+        <div style="text-align: center;">
+            <span class="point" onclick="SlActual(1)">1</span>
+            <span class="point" onclick="SlActual(2)">2</span>
+            <span class="point" onclick="SlActual(3)">3</span>
+            <span class="point" onclick="SlActual(4)">4</span>
+            <span class="point" onclick="SlActual(5)">5</span>  
+       </div>
+    <div class="container">
+            <img src="img/й.jpg" class="Slider" alt="">
+            <img src="img/е.jpg" class="Slider" alt="">
+            <img src="img/к.jpg" class="Slider" alt="">
+            <img src="img/н.jpg" class="Slider" alt="">
+            <img src="img/ц.jpg" class="Slider" alt="">
+          
+    <script src="app.js"></script>
+</body>
+</html>
